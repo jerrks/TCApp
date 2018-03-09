@@ -1,12 +1,39 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+  "pages": [
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/mine/mine",
+    "pages/cart/cart"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "TE-CHAN",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#888888",
+    "selectedColor": "#232323",
+    "backgroundColor": "#F6F6F6",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "HOME",
+        "iconPath": "icon/ic_home_gray.png",
+        "selectedIconPath": "icon/ic_home_selected.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "CART",
+        "iconPath": "icon/ic_cart_gray.png",
+        "selectedIconPath": "icon/ic_cart_selected.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "MINE",
+        "iconPath": "icon/ic_mine_gray.png",
+        "selectedIconPath": "icon/ic_mine_selected.png"
+      }
+    ]
   }
 }
