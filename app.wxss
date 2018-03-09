@@ -5,6 +5,20 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 200rpx 0;
+  padding: 10rpx 0;
   box-sizing: border-box;
-} 
+}
+.image_background{
+  background-color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+.text_middle_value{
+  font-size: 30rpx;
+  font-style: normal;
+  color: #1a191e;
+  position: center;
+  align-self: left;
+}

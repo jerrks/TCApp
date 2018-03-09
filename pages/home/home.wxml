@@ -1,0 +1,19 @@
+<view class="container">
+  <scroll-view scroll-y="true" scroll-with-animation="true" style="height:{{screenHeight}}"
+  enable-back-to-top="true" lower-threshold="100" bindscrolltolower="loadMore">
+    <block wx:for="{{dataSet.productList}}" wx:for-index="idx" wx:key="{{item.productId}}">
+      <view class="product_item_content" bindtap="onClick" data-model="{{item}}">
+        <image class = "image_background" src="{{item.imgUrl}}" mode="aspectFit"
+            style="width:180px;height:120px; background-image: url(../../../icon/ic_image_empty.png);"/>
+
+        <view style="margin:15px;display: flex; flex-direction: column; justify-content: space-between;">
+          <text class="text_middle_value">{{item.productName}}</text>
+          <view style="margin-top:15px; display: flex; flex-direction: row; justify-content: space-between;">
+            <text class="text_middle_value" style="text-align:left; vertical-align:middle;">{{item.price}}</text>
+            <text class="text_middle_value" style="color:#999999;text-decoration:line-through;text-align:left; vertical-align:middle;">{{item.rawPrice}}</text>
+          </view>
+        </view>
+      </view>
+    </block>
+  </scroll-view>
+</view>

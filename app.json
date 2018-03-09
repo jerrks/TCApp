@@ -5,11 +5,11 @@
     "pages/mine/mine",
     "pages/logs/logs"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "TE-CHAN",
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#888888",
@@ -17,7 +17,7 @@
     "backgroundColor": "#F6F6F6",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/home/home",
         "text": "HOME",
         "iconPath": "icon/ic_home_gray.png",
         "selectedIconPath": "icon/ic_home_selected.png"
